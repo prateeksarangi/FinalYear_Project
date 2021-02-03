@@ -35,14 +35,15 @@ def relu(x):
     return np.maximum(x, 0)
 
 model = Model()
-model.add_layer(Layer(784, 10, softmax))
-#model.add_layer(Layer(64, 64, relu))
-#model.add_layer(Layer(64, 10, softmax))
+model.add_layer(Layer(784, 64, softmax))
+model.add_layer(Layer(64, 64, relu))
+model.add_layer(Layer(64, 10, softmax))
 
 model.compile(CrossEntropyLoss, DataLoader, accuracy,
               batches_per_epoch=x_train.shape[0] // 32 + 1,
               n_workers=50, c1=1., c2=2.)
-model.fit(x_train, y_train, 100)
+model.fit(x_train, y_train, 1)
 y_hat = model.predict(x_test)
 
 print('Accuracy on test:', accuracy(y_test, y_hat))
+print(Model._loss)
