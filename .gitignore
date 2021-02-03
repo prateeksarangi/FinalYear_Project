@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+PSO-for-Neural-Nets-master/datasets/test.csv
+PSO-for-Neural-Nets-master/datasets/train.csv
