@@ -26,7 +26,7 @@ particle is placed in the n-dimensional solution space to get to the optimum sol
 ### Feedforward Neural Network
 A Feedforward NN is a stack of two operations (a linear operation followed by a non-linear one) applied multiple times to find mapping from some <img src="/images/XtoY.png" height=28 width=28>.
 
-| ![Feedforward NN operation](/images/nn_operation.png)|
+| ![Feedforward NN operation](https://github.com/prateeksarangi/FinalYear_Project/blob/main/PSO-for-Neural-Nets-master/images/nn_operation.png)|
 | :---------------------------------------------------:|
 | *Feedforward Neural Network Operation per layer* |
 
@@ -38,11 +38,11 @@ Here,<br/>
 *b*: is the bias (like intercept *c* in the equation of a line).
 
 ### How to combine the two?
-Suppose our NN have 3 layers with each having a weight matrix <img src="/images/layeri_w.png" height=28 width=28> and a bias vector <img src="/images/layeri_b.png" height=28 width=28> with dimension equal to the number of outputs of the layer.
+Suppose our NN have 3 layers with each having a weight matrix <img src="https://github.com/prateeksarangi/FinalYear_Project/blob/main/PSO-for-Neural-Nets-master/images/layeri_w.png" height=28 width=28> and a bias vector <img src="https://github.com/prateeksarangi/FinalYear_Project/blob/main/PSO-for-Neural-Nets-master/images/layeri_b.png" height=28 width=28> with dimension equal to the number of outputs of the layer.
 
 *Let's flatten all the weights and biases and concatenate them into a big long vector representing a particle in the n-dimensional solution space. Where solution is the combination of weights and biases that gives the least possible error given the architecture of the network.*
 
-| ![Background Procedure](/images/background_process.png)|
+| ![Background Procedure](https://github.com/prateeksarangi/FinalYear_Project/blob/main/PSO-for-Neural-Nets-master/images/background_process.png)|
 | :---------------------------------------------------:|
 | *Background Procedure* |
 
