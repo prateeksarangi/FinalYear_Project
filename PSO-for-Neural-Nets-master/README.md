@@ -24,7 +24,7 @@ particle is placed in the n-dimensional solution space to get to the optimum sol
 | *Source: [Wikipedia](https://en.wikipedia.org/wiki/Particle_swarm_optimization)*|
 
 ### Feedforward Neural Network
-A Feedforward NN is a stack of two operations (a linear operation followed by a non-linear one) applied multiple times to find mapping from some <img src="/images/XtoY.png" height=28 width=28>.
+A Feedforward NN is a stack of two operations (a linear operation followed by a non-linear one) applied multiple times to find mapping from some <img src="https://github.com/prateeksarangi/FinalYear_Project/blob/main/PSO-for-Neural-Nets-master/images/XtoY.png" height=28 width=28>.
 
 | ![Feedforward NN operation](https://github.com/prateeksarangi/FinalYear_Project/blob/main/PSO-for-Neural-Nets-master/images/nn_operation.png)|
 | :---------------------------------------------------:|
