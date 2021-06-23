@@ -18,7 +18,7 @@ Particle swarm optimization is a meta-heuristics algorithm which comes
 under the sub-category of population based meta-heuristics. This means more than one 
 particle is placed in the n-dimensional solution space to get to the optimum solution.
 
-| ![PSO](/images/ParticleSwarmArrowsAnimation.gif)|
+| ![PSO](https://github.com/prateeksarangi/FinalYear_Project/blob/main/PSO-for-Neural-Nets-master/images/ParticleSwarmArrowsAnimation.gif)|
 |:-----------------------------------------------:|
 | *A particle swarm searching for the global minimum of a function* |
 | *Source: [Wikipedia](https://en.wikipedia.org/wiki/Particle_swarm_optimization)*|
